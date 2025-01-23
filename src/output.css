@@ -574,12 +574,36 @@ video {
   display: flex;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-around {
@@ -598,6 +622,26 @@ video {
   gap: 15px;
 }
 
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[8px\] {
+  gap: 8px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[1px\] {
+  gap: 1px;
+}
+
 .rounded-\[\] {
   border-radius: ;
 }
@@ -614,6 +658,30 @@ video {
 .bg-orange-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 146 60 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[ur\] {
+  background-color: ur;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(https\:\/\/images\.wallpaperscraft\.ru\/image\/single\/krugi_uzory_fon_74377_1920x1200\.jpg\)\] {
+  background-image: url(https://images.wallpaperscraft.ru/image/single/krugi_uzory_fon_74377_1920x1200.jpg);
+}
+
+.bg-\[url\(https\:\/\/i\.pinimg\.com\/originals\/a3\/5b\/0d\/a35b0d4c20c5b72f7dfeae9ac26eb45d\.jpg\)\] {
+  background-image: url(https://i.pinimg.com/originals/a3/5b/0d/a35b0d4c20c5b72f7dfeae9ac26eb45d.jpg);
+}
+
+.bg-\[url\(https\:\/\/c\.wallhere\.com\/photos\/89\/ad\/vector_abstract-1591925\.jpg\!d\)\] {
+  background-image: url(https://c.wallhere.com/photos/89/ad/vector_abstract-1591925.jpg!d);
 }
 
 .pt-\[\] {
@@ -656,6 +724,18 @@ video {
   padding-top: 10px;
 }
 
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
+.pt-\[30px\] {
+  padding-top: 30px;
+}
+
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -673,6 +753,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
