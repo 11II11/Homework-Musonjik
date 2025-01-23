@@ -606,6 +606,10 @@ video {
   flex-direction: column;
 }
 
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -710,6 +714,10 @@ video {
   background-color: url;
 }
 
+.bg-inherit {
+  background-color: inherit;
+}
+
 .bg-\[url\(\)\] {
   background-image: url();
 }
@@ -728,6 +736,14 @@ video {
 
 .bg-\[url\(https\:\/\/i\.pinimg\.com\/originals\/e4\/ec\/67\/e4ec6792564975cfda17f64e36220e6c\.jpg\)\] {
   background-image: url(https://i.pinimg.com/originals/e4/ec/67/e4ec6792564975cfda17f64e36220e6c.jpg);
+}
+
+.bg-\[url\(https\:\/\/djimsk\.ru\/guides\/wp-content\/uploads\/2021\/09\/5fc4ec047cd64\.jpeg\)\] {
+  background-image: url(https://djimsk.ru/guides/wp-content/uploads/2021/09/5fc4ec047cd64.jpeg);
+}
+
+.bg-\[url\(https\:\/\/www\.naturalnews\.com\/wp-content\/uploads\/sites\/91\/2020\/09\/Background-Money-Cash-Dollar-100-America-American\.jpg\)\] {
+  background-image: url(https://www.naturalnews.com/wp-content/uploads/sites/91/2020/09/Background-Money-Cash-Dollar-100-America-American.jpg);
 }
 
 .pt-\[\] {
@@ -780,6 +796,18 @@ video {
 
 .pt-\[20px\] {
   padding-top: 20px;
+}
+
+.pb-\[20ps\] {
+  padding-bottom: 20ps;
+}
+
+.pb-\[20px\] {
+  padding-bottom: 20px;
+}
+
+.pb-\[2\] {
+  padding-bottom: 2;
 }
 
 .text-center {
