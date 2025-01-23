@@ -553,3 +553,45 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[25px\] {
+  margin-top: 25px;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .md\:gap-\[\] {
+    gap: ;
+  }
+
+  .md\:gap-\[250px\] {
+    gap: 250px;
+  }
+
+  .md\:gap-\[450px\] {
+    gap: 450px;
+  }
+}
