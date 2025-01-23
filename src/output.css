@@ -554,6 +554,18 @@ video {
   display: none;
 }
 
+.bottom-\[\] {
+  bottom: ;
+}
+
+.bottom-\[2px\] {
+  bottom: 2px;
+}
+
+.bottom-\[bla\] {
+  bottom: bla;
+}
+
 .mt-\[\] {
   margin-top: ;
 }
@@ -650,6 +662,32 @@ video {
   border-radius: 12px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-indigo-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(199 210 254 / var(--tw-border-opacity, 1));
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.border-b-indigo-500 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(99 102 241 / var(--tw-border-opacity, 1));
+}
+
 .bg-orange-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
@@ -668,6 +706,10 @@ video {
   background-color: ur;
 }
 
+.bg-\[url\] {
+  background-color: url;
+}
+
 .bg-\[url\(\)\] {
   background-image: url();
 }
@@ -682,6 +724,10 @@ video {
 
 .bg-\[url\(https\:\/\/c\.wallhere\.com\/photos\/89\/ad\/vector_abstract-1591925\.jpg\!d\)\] {
   background-image: url(https://c.wallhere.com/photos/89/ad/vector_abstract-1591925.jpg!d);
+}
+
+.bg-\[url\(https\:\/\/i\.pinimg\.com\/originals\/e4\/ec\/67\/e4ec6792564975cfda17f64e36220e6c\.jpg\)\] {
+  background-image: url(https://i.pinimg.com/originals/e4/ec/67/e4ec6792564975cfda17f64e36220e6c.jpg);
 }
 
 .pt-\[\] {
@@ -736,6 +782,10 @@ video {
   padding-top: 20px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -746,6 +796,10 @@ video {
 
 .text-\[55px\] {
   font-size: 55px;
+}
+
+.text-\[80px\] {
+  font-size: 80px;
 }
 
 .text-\[\] {
